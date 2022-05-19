@@ -1,23 +1,62 @@
-header{
-    padding: 0 15%;
+*{
+    margin: 0;
 }
 
-header{
+.bg-1{
     background-image: url("../Images/BG_01.jpg");
     background-size: cover;
-    height: 95vh;
+    height: 100vh;
 }
 
-.head{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.head{   
+    align-items: center; 
+    padding-top: 5%;
 }
 
-header h1{
-    margin: 8% 0;
+.padding{
+    padding: 0 15%;
 }
 
 a{
     margin-left: 1rem;
+}
+
+header h1{
+    padding: 8% 0;
+}
+
+.display{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-2{
+    background-image: url("../Images/BG_02.jpg");
+    background-size: cover;
+}
+
+h2{
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    padding: 10% 0 8% 20%;
+}
+
+article{
+    border: 5px solid #008C8C;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255, 0.05);
+    padding: 3%;
+    margin-bottom: 2%;
+}
+
+article img{
+    border: 4px solid white;
+    border-radius: 15px;
+    padding: 1.5%;
+   margin: 2% 5% 0 0;
+    width: 13%;
+    height: 5%;
+}
+
+#service{
+    padding-bottom: 10%;
 }

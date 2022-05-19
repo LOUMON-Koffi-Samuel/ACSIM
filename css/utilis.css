@@ -3,13 +3,34 @@ h1{
     font-size: 3.8rem;
 }
 
+h4{
+    color: white;
+    font-size: 2rem;
+}
+
 a, p{
     color: white;
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 h2, h3{
     color: #008C8C;
     font-size: 3.5rem;
+}
+
+*{
+    margin: 0;
+}
+
+.padding{
+    padding: 0 15%;
+}
+
+a{
+    margin-left: 1rem;
+}
+
+header h1{
+    padding: 8% 0;
 }

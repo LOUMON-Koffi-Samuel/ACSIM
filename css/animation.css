@@ -1,3 +1,38 @@
 a:hover{
     color: #008C8C;
 }
+
+h3{
+animation: h3 2000ms;
+}
+
+@keyframes h3{
+0% {
+    transform: translateX(-9999px);
+}
+100% {
+    transform: translateX(0);
+    }
+}
+
+nav{
+animation: nav 1700ms;
+}
+
+@keyframes nav{
+0% {
+    transform: translateX(-9999px);
+}
+100% {
+    transform: translateX(0);
+    }
+}
+
+@keyframes h1{
+    0% {
+        transform: translateX(-9999px);
+    }
+    100% {
+        transform: translateX(0);
+        }
+    }

@@ -40,7 +40,7 @@ h1, h4, h5, a, p{
 }
 
 h1{
-    font-size: 3.8rem;
+    font-size: 5rem;
     animation: h1 2700ms;
 }
 
@@ -288,6 +288,7 @@ footer reseau sociaux
 */
 
 .social-networks{
+    margin-top: 5%;
     margin-right: 3%;
 }
 
@@ -301,6 +302,12 @@ footer copyright
     background-color: black;
 }
 
+@media all and (max-width:2000px) and (min-width:1299px) {
+    h1{
+        font-size: 4rem;
+    }
+}
+
 /*
 =============================
 @media pour pc 
@@ -308,6 +315,11 @@ footer copyright
 */
 
 @media all and (max-width:1300px) and (min-width:1005px) {
+
+    h1{
+        font-size: 4rem;
+    }
+    
     a, p{
         font-size: 1.3rem;
     }
@@ -446,10 +458,11 @@ footer
     }
 
     a{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .btn {
+        font-size: 1em;
         margin: 1.5em 0 4em 0;
     }
 
@@ -489,6 +502,5 @@ footer
     }
     .dp-in-bloc-mob{
         display: inline-block;
-
     }
 }

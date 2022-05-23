@@ -35,7 +35,7 @@ h4 {
     margin: 0;
 }
 
-h1, h4, a, p{
+h1, h4, h5, a, p{
     color: white;
 }
 
@@ -60,7 +60,7 @@ h4{
     font-size: 2rem;
 }
 
-a, p{
+a, p, h5{
     text-decoration: none;
     font-size: 1.5rem;
 }
@@ -95,7 +95,7 @@ article{
     background-color: transparent;
     padding: 10px;
     margin: 1.5em 0 4em 37%;
-    font-size: 1.8em;
+    font-size: 1.5em;
     cursor: pointer;
 }
 
@@ -113,11 +113,11 @@ article{
 */
 
 .pd-primary{
-    padding: 0 15%;
+    padding: 0 10%;
 }
 
 .mg-primary{
-    margin: 0 15%;
+    margin: 0 10%;
 }
 
 .dp-flex{
@@ -163,7 +163,7 @@ section header
 }
 
 header h1{
-    padding: 25% 0;
+    padding: 20% 0 25% 0;
 }
 
 /*
@@ -192,8 +192,8 @@ section realisation
 
 .rea-img{ 
     margin: 3% 0;
-    width: 25%;
-    height: 20vh;
+    width: 30%;
+    height: 20%;
 }
 
 /*
@@ -239,7 +239,6 @@ form {
 
 .form-input {
     color: black;
-    margin-left: 0;
     margin: 0 0 0.5em 0;
     cursor: text;
 }
@@ -300,4 +299,196 @@ footer copyright
 
 .bg-black{
     background-color: black;
+}
+
+/*
+=============================
+@media pour pc 
+=============================
+*/
+
+@media all and (max-width:1300px) and (min-width:1005px) {
+    a, p{
+        font-size: 1.3rem;
+    }
+
+    .mg-right-20{
+        margin-right: 15%;
+      }
+
+      .btn {
+        font-size: 1.2em;
+    }
+}
+
+/*
+=============================
+@media pour tablette
+=============================
+*/
+
+@media all and (max-width:1004px) {
+
+    
+    h1{
+        font-size: 3rem;
+    }
+
+    h2{
+        font-size: 2.8rem;
+    }
+
+    h3{
+        font-size: 2.5rem;
+    }
+
+    h4, p, h5{
+        font-size: 1.5rem;
+    }
+
+    a{
+        font-size: 1.06rem;
+    }
+
+    .btn {
+        margin: 1.5em 0 4em 25%;
+    }
+
+   /*
+    =============================
+    section partenaire
+    =============================
+    */
+
+
+    .partenaire-img{
+        height: 10vh;
+    }
+
+    /*
+    =============================
+    section temoignage
+    =============================
+    */
+
+    .dp-in-bloc{
+        display: inline-block;
+    }
+
+    /*
+    =============================
+    section form
+    =============================
+    */
+
+    form {
+        width: 80vw;
+    }
+
+    .form-input {
+        margin: 0 0 0.5em 0;
+    }
+
+    .btn-submit{
+        width: 60%;
+        margin-left: 0;
+
+    }
+
+    /*
+    =============================
+    section maps
+    =============================
+    */
+    .maps{
+        width: 80vw;
+        height: 400px;
+    }
+
+    
+/*
+=============================
+footer 
+=============================
+*/
+.mg-right-20{
+  margin-right: 0%;
+}
+
+.media-pd{
+    padding: 1% 0.08%;
+}
+}
+
+/*
+=============================
+@media pour mobile
+=============================
+*/
+
+@media all and (max-width: 700px) {
+
+    
+    h1{
+        font-size: 1.7rem;
+    }
+
+    h2{
+        font-size: 2.2rem;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+
+    h4, p, h5{
+        font-size: 1.2rem;
+    }
+
+    a{
+        font-size: 1rem;
+    }
+
+    .btn {
+        margin: 1.5em 0 4em 0;
+    }
+
+    .form-input {
+        margin: 0 0 0.5em 0;
+    }
+
+    .rea-img{ 
+        width: 300px;
+        height: 20vh;
+    }
+
+    .img-service, h3 {
+       margin-left: 25%;
+       margin-bottom: 5%;
+    }
+      
+        /*
+    =============================
+    section partenaire
+    =============================
+    */
+
+
+    .partenaire-img{
+        height: auto;
+    }
+
+    /*
+    =============================
+    section temoignage
+    =============================
+    */
+
+    .dp-in-bloc{
+        display: inline-block;
+    }
+    .dp-in-bloc-mob{
+        display: inline-block;
+
+    }
 }

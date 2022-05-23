@@ -6,6 +6,7 @@ animation hover
 
 a:hover{
     color: #008C8C;
+    text-decoration: underline;
 }
 
 .jc-f-star a{

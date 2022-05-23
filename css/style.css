@@ -61,11 +61,12 @@ h4{
 }
 
 p, h5{
-    text-decoration: none;
+   
     font-size: 1.8rem;
 }
 
 a{
+    text-decoration: none;
     font-size: 1.5rem;
     margin-left: 1rem;
 }
